@@ -1,0 +1,31 @@
+package builder2;
+
+public class Toppings {
+	private boolean bacon;
+	private boolean crispyOnions;
+	private boolean caramelOnions;
+	
+	
+	public boolean isBacon() {
+		return bacon;
+	}
+	public void setBacon(boolean bacon) {
+		this.bacon = bacon;
+	}
+	public boolean isCrispyOnions() {
+		return crispyOnions;
+	}
+	public void setCrispyOnions(boolean crispyOnions) {
+		this.crispyOnions = crispyOnions;
+	}
+	public boolean isCaramelOnions() {
+		return caramelOnions;
+	}
+	public void setCaramelOnions(boolean caramelOnions) {
+		this.caramelOnions = caramelOnions;
+	}
+	
+	
+	
+	
+}

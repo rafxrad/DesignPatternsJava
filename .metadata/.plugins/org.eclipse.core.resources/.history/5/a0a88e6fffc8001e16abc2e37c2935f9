@@ -1,0 +1,9 @@
+package factorymethod;
+
+public abstract class Celular {
+	
+	private String nome;
+	private String marca;
+	private String versao;
+
+}

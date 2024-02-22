@@ -1,0 +1,16 @@
+package builder2;
+
+import builder.Pedido;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Burger myBurger = new BurgerBuilder()
+				.setPedido("R10")
+				.setCliente("Rafa", "weiss@", "Rua Jose")
+				.setVendedor("Carlos", 2)
+				.setProduto("Limao", 1, 1)
+				.setProduto("Manga", 2, 2).builder();
+	}
+}

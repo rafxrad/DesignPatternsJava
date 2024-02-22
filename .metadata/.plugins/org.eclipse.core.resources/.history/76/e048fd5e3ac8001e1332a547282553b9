@@ -1,0 +1,77 @@
+package com.br.heranca.exercicio1;
+
+public class ContaBancaria {
+	
+	private Cliente cliente;
+	private int numConta;
+	protected float saldo;
+	
+	
+	public ContaBancaria(Cliente cliente, int numConta, float saldo) {
+		super();
+		this.cliente = cliente;
+		this.numConta = numConta;
+		this.saldo = saldo;
+	}
+
+	
+
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+
+
+
+	public int getNumConta() {
+		return numConta;
+	}
+
+
+
+	public void setNumConta(int numConta) {
+		this.numConta = numConta;
+	}
+
+
+
+	public float getSaldo() {
+		return saldo;
+	}
+
+
+
+	public void setSaldo(float saldo) {
+		this.saldo = saldo;
+	}
+
+
+
+	public void sacar(float valor) {
+		if ((this.saldo - valor) > 0) {
+			saldo -= valor;
+			System.out.println("Saque realizado com sucesso.");;
+		}
+		System.out.println("Saldo insuficiente.");
+	}
+	
+	public void depositar(float valor) {
+		saldo += valor;
+		System.out.println("Depósito realizado com sucesso. " + saldo);
+	}
+	
+	public void mostrarDadosDaConta() {
+		
+		System.out.println(this.cliente + ", sua conta possui o número: " + this.numConta + "  e o saldo atual é: " + this.saldo);
+		
+		
+	}
+	
+	
+
+}

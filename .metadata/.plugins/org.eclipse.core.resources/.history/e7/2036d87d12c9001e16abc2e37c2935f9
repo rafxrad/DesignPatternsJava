@@ -1,0 +1,22 @@
+package builder2;
+
+public class Toppings {
+	private boolean spicy;
+	private boolean ranch;
+	
+	
+	public boolean isSpicy() {
+		return spicy;
+	}
+	public void setSpicy(boolean spicy) {
+		this.spicy = spicy;
+	}
+	public boolean isRanch() {
+		return ranch;
+	}
+	public void setRanch(boolean ranch) {
+		this.ranch = ranch;
+	}
+	
+	
+}

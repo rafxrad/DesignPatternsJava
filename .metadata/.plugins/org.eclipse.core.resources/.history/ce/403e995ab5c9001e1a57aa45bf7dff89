@@ -1,0 +1,11 @@
+package factorymethod;
+
+public interface ICelular {
+
+	void ligar();
+
+	void desligar();
+
+	
+
+}

@@ -1,0 +1,26 @@
+package builder;
+
+import java.util.ArrayList;
+
+public class Pedido {
+
+	private int idPedido;
+	private ArrayList<Produto> Produtos;
+	
+	
+	public int getIdPedido() {
+		return idPedido;
+	}
+	public void setIdPedido(int idPedido) {
+		this.idPedido = idPedido;
+	}
+	public ArrayList<Produto> getProdutos() {
+		return Produtos;
+	}
+	public void setProdutos(ArrayList<Produto> produtos) {
+		Produtos = produtos;
+	}
+	
+	
+	
+}

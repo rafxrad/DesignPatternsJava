@@ -1,0 +1,24 @@
+package builder2;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Burger myburger1 = new BurgerBuilder().setBread("Parmesan bread")
+				.setCheese("Gouda")
+				.setMeat("Sirloin medium rare")
+				.setSalad(true)
+				.setSeasoning(true, false, true, false)
+				.setToppings(true, true, false)
+				.order();
+		
+		
+		System.out.println(myburger1 + " has been ordered.");
+	
+		System.out.println("---------------------------");
+		
+		
+	
+	}
+}

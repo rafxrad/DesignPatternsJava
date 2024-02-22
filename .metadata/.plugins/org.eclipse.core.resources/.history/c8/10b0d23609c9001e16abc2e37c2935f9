@@ -1,0 +1,8 @@
+package builder;
+
+public class Vendedor {
+	
+	private String nome;
+	private int idVendedor;
+
+}

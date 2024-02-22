@@ -1,0 +1,26 @@
+package prototype;
+
+public class Principal {
+
+	public Principal() {
+		// TODO Auto-generated constructor stub
+		
+		DocumentoPrototipo doc1 = new DocumentoPrototipo();
+		
+		doc1.nome = "Rafa";
+		doc1.local = "/docs/rafa";
+		doc1.dataCriacao = "13/02/2024";
+		
+		
+		System.out.println(doc1);
+		
+		
+		DocumentoPrototipo doc2 = doc1.clone();
+		
+		System.out.println(doc2);
+		
+		
+		
+	}
+	
+}

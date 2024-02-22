@@ -1,0 +1,10 @@
+package factorymethod2;
+
+public class BrazilCurrency {
+	
+	private String pais = "Brazil";
+	private String simbolo = "R$";
+	
+	
+
+}

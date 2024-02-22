@@ -1,0 +1,18 @@
+package com.br.heranca.exercicio1;
+
+public class Conta {
+
+	public static void main(String[] args) {
+		
+		Cliente cliente1 = new Cliente("Rafa", "0912313", "Rua da paz", 30, "@rafa", 'F');
+		ContaBancaria c1 = new ContaBancaria(cliente1, 0001, 500);
+		
+		
+		c1.sacar(600);
+		c2.depositar(1500);
+		c2.sacar(100000);
+		c2.mostrarDadosDaConta();
+		c3.mostrarDadosDaConta();
+		
+	}
+}

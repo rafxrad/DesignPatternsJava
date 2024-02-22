@@ -1,0 +1,11 @@
+package factorymethod;
+
+public abstract class Celular {
+
+	void ligar();
+
+	void desligar();
+
+	
+
+}

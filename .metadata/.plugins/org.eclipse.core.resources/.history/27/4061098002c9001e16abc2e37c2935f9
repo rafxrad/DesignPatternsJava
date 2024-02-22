@@ -1,0 +1,8 @@
+package factorymethod;
+
+public class Client {
+
+		public static void main(String[] args) throws ClassNotFoundException {
+			ICelular celular = CelularFactory.create(CelularTypes.IPHONE);
+		}
+}

@@ -1,0 +1,12 @@
+package com.br.heranca.exercicio1;
+
+public class ContaEspecial {
+	
+	float limite;
+	
+	@Override
+	public void sacar(float valor) {
+		
+	}
+
+}

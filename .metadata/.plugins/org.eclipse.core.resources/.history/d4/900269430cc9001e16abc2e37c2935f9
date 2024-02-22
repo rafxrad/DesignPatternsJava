@@ -1,0 +1,52 @@
+package builder;
+
+import java.util.ArrayList;
+
+public class PedidoBuilder {
+
+	private Pedido instancia;
+	
+	public PedidoBuilder() {
+		this.instancia = new Pedido();
+		
+	}
+	
+	public PedidoBuilder setPedido(String idPedido) {
+		instancia.setIdPedido(idPedido);
+		return this;
+	}
+	
+	public PedidoBuilder setCliente(String nome, String email, String endereco) {
+		Cliente cliente = new Cliente;
+		cliente.setNome(nome);
+		cliente.setEmail(email);
+		cliente.setEndereco(endereco);
+		
+		instancia.setCliente(cliente);
+		
+		return this;
+	}
+	
+	public PedidoBuilder setVendedor(String nome, int idVendedor) {
+		Vendedor vendedor = new Vendedor();
+		vendedor.setNome(nome);
+		vendedor.setNome(nome);
+		
+		instancia.setVendedor(vendedor);;
+		
+		return this;
+	}
+	
+	public PedidoBuilder setPedido(String idPedido, Cliente cliente, Vendedor vendedor, ArrayList<Produto> Produtos){
+		Pedido pedido = new Pedido();
+		pedido.setCliente(cliente);
+		pedido.setVendedor(vendedor);
+		pedido.setIdPedido(idPedido);
+		pedido.setProdutos(Produtos);
+		
+		return this;
+		
+	}
+
+}
+

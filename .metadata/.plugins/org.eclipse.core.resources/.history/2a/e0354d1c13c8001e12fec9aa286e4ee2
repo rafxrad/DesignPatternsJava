@@ -1,0 +1,31 @@
+package com.br.heranca.exercicio1;
+
+public class ContaEspecial extends ContaBancaria{
+	
+	
+	public ContaEspecial(String cliente, int numConta, float saldo) {
+		super(cliente, numConta, saldo);
+		// TODO Auto-generated constructor stub
+	}
+
+	private float limite;
+	
+	
+	
+	public float getLimite() {
+		return limite;
+	}
+
+
+
+	public void setLimite(float limite) {
+		this.limite = limite;
+	}
+
+
+
+	public void sacar(float valor) {
+		
+	}
+
+}

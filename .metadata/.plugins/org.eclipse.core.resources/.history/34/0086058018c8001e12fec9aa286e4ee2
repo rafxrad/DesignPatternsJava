@@ -1,0 +1,19 @@
+
+public class Diretor extends Gerente {
+	
+	public Diretor(String nome, String cpf, float salario, String senha) {
+		super(nome, cpf, salario, senha);
+		// TODO Auto-generated constructor st ub
+	}
+
+	private String departamento;
+
+	public String getDepartamento() {
+		return departamento;
+	}
+
+	public void setDepartamento(String departamento) {
+		this.departamento = departamento;
+	}
+	 
+}

@@ -1,0 +1,10 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			System.out.print("Primeiro programa em Java!");
+			System.out.print("Teste em java");
+	}
+
+}

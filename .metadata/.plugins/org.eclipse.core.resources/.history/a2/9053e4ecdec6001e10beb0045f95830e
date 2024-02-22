@@ -1,0 +1,18 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			System.out.println("Primeiro programa em Java!");
+			System.out.println("Ola Mundo!");
+			
+			Pessoa pessoa = new Pessoa("Rafa", "097.129.064-42", 0, 'F', "Solteira");
+			
+			
+			
+			pessoa.toString();
+			
+	}
+
+}
+ 

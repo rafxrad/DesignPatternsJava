@@ -1,0 +1,18 @@
+package prototype;
+
+public class Main {
+
+	public Main() {
+		// TODO Auto-generated constructor stub
+		
+		DocumentoPrototipo doc1 = new DocumentoPrototipo();
+		
+		doc1.nome = "Rafa";
+		doc1.local = "/docs/rafa";
+		doc1.dataCriacao = '13/02/2024;
+		
+		
+		
+	}
+	
+}

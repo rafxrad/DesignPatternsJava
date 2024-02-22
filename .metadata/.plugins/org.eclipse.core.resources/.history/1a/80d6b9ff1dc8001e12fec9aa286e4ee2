@@ -1,0 +1,15 @@
+package com.br.heranca.exercicio1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ContaBancariaTest {
+
+	@Test
+	public void test() {
+		ContaBancaria c1 = new ContaBancaria("Jose", 0001, 500);
+		assertEquals("Jackson", c1.getCliente());
+		}
+
+}

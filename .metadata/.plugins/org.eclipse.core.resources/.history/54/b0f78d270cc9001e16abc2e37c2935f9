@@ -1,0 +1,11 @@
+package builder;
+
+public class PedidoBuilder {
+
+	private Pedido instancia;
+	
+	public PedidoBuilder() {
+		this.instancia = new Pedido();
+		
+	}
+}

@@ -1,0 +1,34 @@
+package builder2;
+
+import java.util.ArrayList;
+
+public class BurgerBuilder {
+	
+	private Burger instancia;
+	
+	public BurgerBuilder(){
+		
+		this.instancia = new Burger();
+	}
+	
+	public BurgerBuilder setBurger(String bread, String meat, String cheese, boolean salad, ArrayList<Seasoning> seasonings, ArrayList<Toppings> toppings) 
+	{
+		instancia.setBread(bread);
+		instancia.setCheese(meat);
+		instancia.setCheese(cheese);
+		instancia.setSalad(salad);
+		
+		if(instancia.getSeasoning() == null) {
+			instancia.setSeasoning(new ArrayList<Seasoning>());
+		}
+		
+		instancia.getSeasoning().add(seasonings);
+		
+		if(instancia.getToppings() == null) {
+			instancia.setToppings(new ArrayList<Toppings>());
+		}
+		
+		instancia.getToppings().add(toppings);
+	}
+
+}

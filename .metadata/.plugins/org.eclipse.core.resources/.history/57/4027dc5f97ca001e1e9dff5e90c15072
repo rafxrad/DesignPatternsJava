@@ -1,0 +1,75 @@
+package builder2;
+
+import java.util.ArrayList;
+
+public class BurgerBuilder {
+	
+	private Burger burger;
+	
+	
+	
+	public BurgerBuilder(){
+		
+		this.burger = new Burger();
+	}
+	
+	public BurgerBuilder setBread(String bread) {
+		
+		burger.setBread(bread);
+		
+		return this;
+		
+	}
+
+	public BurgerBuilder setCheese(String cheese) {
+			
+		burger.setCheese(cheese);
+			
+		return this;
+			
+		}
+	
+	public BurgerBuilder setMeat(String meat) {
+		
+		burger.setMeat(meat);
+			
+		return this;
+	}
+	
+	public BurgerBuilder setSalad(boolean salad) {
+		
+		burger.setSalad(salad);
+		
+		return this;
+	}
+	
+	public BurgerBuilder setSeasoning(boolean spicy, boolean ranch, boolean ketchup,boolean mayonaise) {
+		Seasoning seasoning = new Seasoning();
+		seasoning.setSpicy(spicy);
+		seasoning.setRanch(ranch);
+		seasoning.setKetchup(ketchup);
+		seasoning.setMayonaise(mayonaise);
+		
+		return this;
+	}
+	
+	public BurgerBuilder setToppings(boolean bacon, boolean crispyOnions, boolean caramelOnions) {
+		Toppings toppings = new Toppings();
+		
+		toppings.setBacon(bacon);
+		toppings.setCaramelOnions(caramelOnions);
+		toppings.setCrispyOnions(crispyOnions);
+		
+		
+		return this;
+	}
+	
+	public Burger builder() {
+		
+		return burger;
+	}
+
+	
+	
+	
+}

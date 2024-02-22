@@ -1,0 +1,21 @@
+package factorymethod;
+
+public abstract class Celular {
+	
+	private String nome;
+	private String marca;
+	private String versao;
+	
+	public abstract void ligar() {
+		
+	}
+	
+	public abstract void desligar() {
+		
+	}
+	
+	public abstract void realizarChamada (int numero) {
+		System.out.println("Ligando para " + numero);
+	}
+
+}

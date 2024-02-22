@@ -1,0 +1,25 @@
+package factorymethod;
+
+public class CelularFactory implements ICelular{
+
+	@Override
+	public void ligar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void desligar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void realizarChamada(int numero) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+
+}

@@ -1,0 +1,30 @@
+package builder2;
+
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Burger myburger1 = new BurgerBuilder().setBread("Parmesan bread")
+				.setCheese("Gouda")
+				.setMeat("Sirloin medium rare")
+				.setSalad(true)
+				.setSeasoning(true, false, true, false)
+				.setToppings(true, true, false)
+				.builder();
+		
+		Burger myburger2 = new BurgerBuilder().setBread("Parmesan bread")
+				.setCheese("Guyere")
+				.setMeat("Smashed")
+				.setSalad(false)
+				.setSeasoning(false, false, true, false)
+				.setToppings(true, true, false)
+				.builder();
+		
+		System.out.println("Burger has been ordered.");
+		System.out.println(myburger.toString());
+		
+		
+	
+	}
+}

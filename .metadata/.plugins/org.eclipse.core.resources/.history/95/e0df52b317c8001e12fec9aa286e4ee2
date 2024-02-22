@@ -1,0 +1,34 @@
+package com.br.heranca.exercicio1;
+
+public class ContaPoupanca extends ContaBancaria {
+	
+	public ContaPoupanca(String cliente, int numConta, float saldo) {
+		super(cliente, numConta, saldo);
+		// TODO Auto-generated constructor stub
+	}
+
+	private int diaDeRendimento;
+	
+	
+	
+	public int getDiaDeRendimento() {
+		return diaDeRendimento;
+	}
+
+
+
+	public void setDiaDeRendimento(int diaDeRendimento) {
+		this.diaDeRendimento = diaDeRendimento;
+	}
+
+
+
+	public void calcularNovoSaldo(float taxa) {
+		if (this.diaDeRendimento > 10) {
+			this.setSaldo(getSaldo() * taxa);
+		} else {
+			this.setSaldo((this.getSaldo() * taxa) * 0.5);
+ 		}
+	}
+
+}

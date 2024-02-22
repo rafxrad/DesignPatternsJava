@@ -1,0 +1,13 @@
+package builder2;
+
+import java.util.ArrayList;
+
+public class Burger {
+
+	private String bread;
+	private String cheese;
+	private boolean salad;
+	private ArrayList<Seasoning> seasoning;
+	private ArrayList<Toppings> toppings;
+	
+}

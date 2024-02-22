@@ -1,0 +1,13 @@
+package factorymethod2;
+
+public class MoedaFactory {
+	
+	public static Moeda makeMoeda(CurrencyTypes currency) {
+		if(currency = 'US') {
+			return new BrazilCurrency();
+		} else {
+			return new USCurrency();
+		}
+	}
+
+}

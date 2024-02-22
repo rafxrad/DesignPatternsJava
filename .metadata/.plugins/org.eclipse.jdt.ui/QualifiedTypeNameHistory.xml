@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Pessoa"/>
+    <fullyQualifiedTypeName name="UtilitarioContas"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.br.heranca.exercicio1.ContaEspecial"/>
+    <fullyQualifiedTypeName name="com.br.heranca.exercicio1.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="com.br.heranca.exercicio1.ContaBancaria"/>
+    <fullyQualifiedTypeName name="com.br.heranca.exercicio1.Cliente"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="builder.PedidoBuilder"/>
+    <fullyQualifiedTypeName name="builder.Pedido"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.DateTimeAtCreation"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="builder2.Burger"/>
+    <fullyQualifiedTypeName name="factorymethod.CelularFactory"/>
+    <fullyQualifiedTypeName name="factorymethod.CelularTypes"/>
+    <fullyQualifiedTypeName name="factorymethod2.USCurrency"/>
+    <fullyQualifiedTypeName name="factorymethod2.MoedaFactory"/>
+    <fullyQualifiedTypeName name="factorymethod2.CurrencyTypes"/>
+    <fullyQualifiedTypeName name="builder2.BurgerBuilder"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="prototype.Main"/>
+    <fullyQualifiedTypeName name="prototype.DocumentoPrototipo"/>
+</qualifiedTypeNameHistroy>

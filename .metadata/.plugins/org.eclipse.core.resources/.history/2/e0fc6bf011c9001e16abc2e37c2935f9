@@ -1,0 +1,9 @@
+package builder2;
+
+public class Burger {
+
+	private String bread;
+	private String cheese;
+	private boolean salad;
+	
+}

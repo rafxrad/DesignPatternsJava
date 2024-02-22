@@ -1,0 +1,26 @@
+package com.br.heranca.exercicio1;
+
+public class ContaBancaria {
+	
+	private String Cliente;
+	private int numConta;
+	private float saldo;
+	
+	
+	public void sacar(float valor) {
+		if (saldo > 0) {
+			saldo -= valor;
+			System.out.println("Saque realizado com sucesso.");;
+		}
+	}
+	
+	public void depositar(float valor) {
+		saldo += valor;
+		System.out.println("Saque realizado com sucesso.");
+	}
+	
+	public void mostrarDadosDaConta() {
+		
+	}
+
+}

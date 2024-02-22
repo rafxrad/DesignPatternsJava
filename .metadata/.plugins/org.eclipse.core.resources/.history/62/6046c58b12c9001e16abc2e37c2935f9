@@ -1,0 +1,9 @@
+package builder2;
+
+public class Toppings {
+	private boolean bacon;
+	private boolean crispyOnions;
+	private boolean caramelOnions;
+	
+	
+}

@@ -1,0 +1,21 @@
+package builder2;
+
+import java.util.ArrayList;
+
+public class BurgerBuilder {
+	
+	private Burger instancia;
+	
+	public BurgerBuilder(){
+		
+		this.instancia = new Burger();
+	}
+	
+	public BurgerBuilder setBurger(String bread)
+		instancia.setBread(bread);
+		
+		return this;
+		
+	}
+
+}

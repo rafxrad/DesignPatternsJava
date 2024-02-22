@@ -1,0 +1,20 @@
+package factorymethod;
+
+public class SamsungCelular implements ICelular{
+	
+	String nome = "Galaxy";
+	String marca = "Samsung";
+	String versao = "10";
+	
+	public void ligar() {
+		System.out.println("Ligando celular.");
+	}
+	
+	public void desligar() {
+		System.out.println("Desligando celular.");
+	}
+	
+	public void realizarChamada(int numero) {
+		System.out.println("Ligando para: " + numero);
+	}
+}
