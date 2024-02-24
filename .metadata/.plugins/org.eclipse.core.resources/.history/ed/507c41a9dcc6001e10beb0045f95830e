@@ -1,9 +1,0 @@
-package curso_java;
-
-public class Mulher extends Pessoa {
-	
-	public void gritar() {
-		
-	}
-
-}

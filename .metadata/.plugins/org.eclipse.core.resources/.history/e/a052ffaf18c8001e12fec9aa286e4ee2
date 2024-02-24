@@ -1,8 +1,0 @@
-
-public class Usuario {
-	
-	public String nome;
-	public float tempoCultivo;
-	public String descricao;
-
-}

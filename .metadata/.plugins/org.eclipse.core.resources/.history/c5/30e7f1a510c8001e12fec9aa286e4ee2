@@ -1,9 +1,0 @@
-package com.br.heranca.exercicio1;
-
-public class ContaBancaria {
-	
-	private String Cliente;
-	private int numConta;
-	private float saldo;
-
-}

@@ -1,0 +1,7 @@
+package builder3;
+
+public class Atendente {
+
+	String nome;
+	String idFuncionario;
+}

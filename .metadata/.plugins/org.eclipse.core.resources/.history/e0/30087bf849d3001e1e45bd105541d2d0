@@ -1,0 +1,31 @@
+package builder3;
+
+public class OrdemDeServicoBuilder {
+	
+	private OrdemDeServico ordemdeservico;
+	
+	public OrdemDeServicoBuilder() {
+		this.ordemdeservico = new OrdemDeServico();
+	}
+	
+	/* String idOrdemDeServico;
+	Cliente cliente;
+	Atendente atendente;
+	String descricao;
+	Double valor; */
+
+	public OrdemDeServico setDescricao(String descricao) {
+		
+		ordemdeservico.setDescricao(descricao);
+	
+		return this;
+	}
+	
+	public OrdemDeServico setValor (Double valor) {
+		ordemdeservico.setValor(valor);
+		
+		return this;
+	}
+	
+	
+}

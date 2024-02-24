@@ -1,0 +1,9 @@
+package builder3;
+
+public class OrdemDeServicoBuilder {
+	
+	private OrdemDeServico ordemdeservico;
+	
+	
+
+}

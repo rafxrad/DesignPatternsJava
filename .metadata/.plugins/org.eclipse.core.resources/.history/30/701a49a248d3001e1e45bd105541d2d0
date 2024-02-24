@@ -1,0 +1,10 @@
+package builder3;
+
+public class OrdemDeServico {
+
+	Cliente cliente;
+	Atendente atendente;
+	String descricao;
+	Double valor;
+	
+}

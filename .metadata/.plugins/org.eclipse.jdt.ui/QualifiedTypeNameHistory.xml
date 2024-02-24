@@ -33,4 +33,9 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="prototype.Main"/>
     <fullyQualifiedTypeName name="prototype.DocumentoPrototipo"/>
+    <fullyQualifiedTypeName name="Character"/>
+    <fullyQualifiedTypeName name="WeaponBehavior"/>
+    <fullyQualifiedTypeName name="SwordBehavior"/>
+    <fullyQualifiedTypeName name="BowAndArrowBehavior"/>
+    <fullyQualifiedTypeName name="KnifeBehavior"/>
 </qualifiedTypeNameHistroy>

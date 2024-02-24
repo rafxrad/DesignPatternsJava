@@ -1,7 +1,0 @@
-package builder2;
-
-public class Toppings {
-	private boolean spicy;
-	private boolean ranch;
-	
-}

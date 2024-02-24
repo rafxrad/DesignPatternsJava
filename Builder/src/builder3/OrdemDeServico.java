@@ -1,0 +1,43 @@
+package builder3;
+
+public class OrdemDeServico {
+
+	
+	Cliente cliente;
+	Atendente atendente;
+	String descricao;
+	Double valor;
+	
+	
+	public Cliente getCliente() {
+		return cliente;
+	}
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+	public Atendente getAtendente() {
+		return atendente;
+	}
+	public void setAtendente(Atendente atendente) {
+		this.atendente = atendente;
+	}
+	public String getDescricao() {
+		return descricao;
+	}
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	public Double getValor() {
+		return valor;
+	}
+	public void setValor(Double valor) {
+		this.valor = valor;
+	}
+	
+	@Override
+	public String toString() {
+		return "OrdemDeServico [cliente=" + cliente + ", atendente=" + atendente + ", descricao=" + descricao
+				+ ", valor=" + valor + "]";
+	}
+	
+}

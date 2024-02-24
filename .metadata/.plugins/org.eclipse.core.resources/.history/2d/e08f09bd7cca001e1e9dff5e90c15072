@@ -1,8 +1,0 @@
-package factorymethod2;
-
-public abstract class Moeda {
-	
-	private String pais;
-	private String simbolo;
-
-}

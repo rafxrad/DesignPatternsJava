@@ -1,8 +1,0 @@
-
-public class Cultura {
-	
-	public String nome;
-	public float tempoCultivo;
-	public String descricao;
-
-}

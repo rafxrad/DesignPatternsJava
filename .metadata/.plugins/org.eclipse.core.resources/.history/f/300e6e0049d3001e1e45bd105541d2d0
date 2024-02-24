@@ -1,0 +1,11 @@
+package builder3;
+
+public class OrdemDeServicoBuilder {
+	
+	private OrdemDeServico ordemdeservico;
+	
+	public OrdemDeServicoBuilder() {
+		this.ordemdeservico = new OrdemDeServico();
+	}
+
+}
